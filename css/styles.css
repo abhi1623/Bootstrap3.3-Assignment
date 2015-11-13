@@ -1,0 +1,86 @@
+body {
+  padding-top: 67px;
+}
+.navbar {
+  background-color: #fbd433;
+}
+.navbar-nav>li>a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color:black;
+  font-size: 17px;
+}
+.navbar-brand {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.navbar .btn {
+  margin: 11px 5px;
+}
+.carousel .item img {
+  min-width: 100%;
+  min-height: 300px;
+  max-height: 700px;
+}
+.carousel-caption h1 {
+  font-size: 25px;
+}
+
+.carousel-caption .btn {
+  margin-bottom: 5px;
+  padding: 6px 10px;
+  font-size: 14px;
+}
+.well {
+  margin: 0 15px;
+}
+.tile1 {
+  background: url("../../images/tile1.jpg") center no-repeat;
+  background-size: cover;
+}
+.tile2 {
+  background: url("../../images/tile2.jpg") center no-repeat;
+  background-size: cover;
+}
+.tile3 {
+  background: url("../../images/tile3.jpg") center no-repeat;
+  background-size: cover;
+}
+.tile1, .tile2, .tile3 {
+  height: 300px;
+  margin-top: 30px;
+  padding-top: 10px;
+  color: #fff;
+  text-align: center;
+}
+#tileView p {
+  color: #fbd433;
+}
+footer {
+  margin-top: 20px;
+  background: #333;
+  color:#eee;
+  font-size: 12px;
+  padding:20px;
+}
+
+@media (max-width:480px) {
+  .carousel-caption h1 {
+    font-size: 15px;
+  }
+
+  .carousel-caption .btn {
+    padding: 4px 6px;
+    font-size: 10px;
+  }
+}
+@media (min-width:1200px) {
+  .carousel-caption h1 {
+    font-size: 38px;
+  }
+
+  .carousel-caption .btn {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
