@@ -153,7 +153,7 @@
           Our experience over three decades of working for children has
           taught us that lasting change is only possible when we look at the bigger picture.
         </p>
-        <button type="button" class="btn btn-warning btn-small"> Read about our approach</button>
+        <button type="button" class="btn btn-warning btn-sm"> Read about our approach</button>
       </div>
 
       <div class="col-sm-4">
@@ -161,15 +161,56 @@
         <p> Numbers don't count. Even if we can change one life, it means a great deal to us.</p>
         <br>
         <p class="text-right"><small> <em>Rippan Kapur. CRY founder</em></small> </p>
-        <button type="button" class="btn btn-warning btn-small"> Hear from our children</button>
+        <button type="button" class="btn btn-warning btn-sm"> Hear from our children</button>
       </div>
 
       <div class="col-sm-4">
         <h3>MAKE LASTING CHANGE POSSIBLE</h3>
         <p>When we make sure every child goes to school, the India of our dreams will truly become reality.</p>
         <p class="text-right"><small> <em>Kaustubh Konor, Mumbai. CRY volunteer since 2009</em></small> </p>
-        <button type="button" class="btn btn-warning btn-small">Become a volunteer</button>
-      </div>
+        <button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#myModal1">Become a volunteer</button>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Be a volunteer</h4>
+              </div>
+
+              <div class="modal-body">
+                <h4>Please fill the form</h4>
+                <form action="" class="form-horizontal">
+                  <div class="form-group">
+                    <label for="inputName" class="col-lg-2 control-label">Name</label>
+                    <div class="col-lg-10">
+                      <input type="text" id="inputName" placeholder="Name" class="form-control">
+                    </div>
+                    </div>
+                  <div class="form-group">
+                    <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                    <div class="col-lg-10">
+                      <input type="text" id="inputEmail" placeholder="Email" class="form-control">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputMessage" class="col-lg-2 control-label">Reason</label>
+                    <div class="col-lg-10">
+                      <textarea type="text" id="inputMessage" placeholder="Reason for volunteering" class="form-control" rows="3"></textarea>
+                      <button class="btn btn-success pull-right" type="submit">Save</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div> <!-- modal-content end-->
+          </div> <!-- modal-dialog end-->
+        </div> <!-- myModal1 end-->
+      </div> <!-- col-sm-4 end-->
     </div> <!-- row end-->
     <hr>
     <div class="row" id="statistics">
@@ -187,7 +228,7 @@
               (Ministry of Health and Family Welfare, Government of India)</li>
           <li>Vaccine preventable diseases (VPDs) are still responsible for over 5 lakh deaths annually in India.</li>
         </ul>
-        <button type="button" class="btn btn-warning pull-right btn-small">Learn more</button>
+        <button type="button" class="btn btn-warning pull-right btn-sm">Learn more</button>
       </div>
     </div> <!-- row end-->
     <hr>
@@ -214,7 +255,7 @@
           course of this internship. In that sense, the internship is recognized as a beginning of a much longer
           relationship between CRY and the intern, as well as the institution they represent.
         </p>
-        <button type="button" class="btn btn-warning btn-small pull-right">Learn more</button>
+        <button type="button" class="btn btn-warning btn-sm pull-right">Learn more</button>
       </div>
     </div> <!-- row end-->
   </div> <!-- container main end-->
@@ -236,7 +277,7 @@
         </div>
 
         <div class="clearfix visible-xs-block"></div>
-        
+
         <div class="col-xs-6 col-sm-2">
           <h6>Volunteer</h6>
           <ul class="list-unstyled">

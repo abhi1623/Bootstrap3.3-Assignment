@@ -37,6 +37,9 @@ body {
 .page-header{
   margin: 0;
 }
+#myModal1 .modal-body .form-group .btn {
+  margin-top:5px;
+}
 .tile1 {
   background: url("../../images/tile1.jpg") center no-repeat;
   background-size: cover;
