@@ -32,10 +32,13 @@ body {
   font-size: 14px;
 }
 .well {
-  margin: 0 15px;
+  padding: 0 20px;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 .page-header{
   margin: 0;
+  text-align: center;
 }
 #myModal1 .modal-body .form-group .btn {
   margin-top:5px;
@@ -54,13 +57,14 @@ body {
 }
 .tile1, .tile2, .tile3 {
   height: 300px;
-  margin-top: 30px;
-  padding-top: 10px;
+  margin-bottom: 30px;
+  padding: 10px 10px;
   color: #fff;
   text-align: center;
 }
-#tileView p {
+.tileView p {
   color: #fbd433;
+  text-align: justify;
 }
 footer {
   margin-top: 20px;
