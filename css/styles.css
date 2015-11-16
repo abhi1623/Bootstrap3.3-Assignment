@@ -34,6 +34,9 @@ body {
 .well {
   margin: 0 15px;
 }
+.page-header{
+  margin: 0;
+}
 .tile1 {
   background: url("../../images/tile1.jpg") center no-repeat;
   background-size: cover;
